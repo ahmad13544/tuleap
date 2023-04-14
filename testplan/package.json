@@ -1,0 +1,43 @@
+{
+  "name": "@tuleap/plugin-testplan",
+  "author": "Enalean",
+  "homepage": "https://tuleap.org",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "dependencies": {
+    "@tuleap/burningparrot-theme": "workspace:*",
+    "@tuleap/concurrency-limit-pool": "workspace:*",
+    "@tuleap/plugin-agiledashboard-scrum-milestone-header": "workspace:*",
+    "@tuleap/plugin-docgen-docx": "workspace:*",
+    "@tuleap/plugin-docgen-xlsx": "workspace:*",
+    "@tuleap/plugin-testmanagement": "workspace:*",
+    "@tuleap/project-background": "workspace:*",
+    "@tuleap/tlp": "workspace:*",
+    "@tuleap/tlp-dropdown": "workspace:*",
+    "@tuleap/tlp-fetch": "workspace:*",
+    "@tuleap/vue3-gettext-init": "workspace:*",
+    "docx": "^7.3.0",
+    "vue": "^3.2.37",
+    "vue3-gettext": "^2.2.1",
+    "vuex": "^4.0.2",
+    "vuex-composition-helpers": "^2.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tuleap/build-system-configurator": "workspace:*",
+    "@tuleap/cypress-configurator": "workspace:*",
+    "@tuleap/cypress-utilities-support": "workspace:*",
+    "@tuleap/gettext": "workspace:*",
+    "@tuleap/plugin-tracker-rest-api-types": "workspace:*",
+    "@tuleap/po-gettext-plugin": "workspace:*",
+    "@tuleap/vuex-store-wrapper-jest": "workspace:*",
+    "@vue/test-utils": "^2.3",
+    "vue-loader": "^17.0.0"
+  },
+  "scripts": {
+    "typecheck": "vue-tsc --noEmit",
+    "build": "webpack --config webpack.prod.mjs",
+    "watch": "webpack --config webpack.dev.mjs --watch",
+    "test": "jest"
+  }
+}

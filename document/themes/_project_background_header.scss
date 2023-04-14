@@ -1,0 +1,62 @@
+/**
+ * Copyright (c) Enalean, 2020-present. All Rights Reserved.
+ *
+ * This file is a part of Tuleap.
+ *
+ * Tuleap is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Tuleap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Tuleap. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@use "../../../src/themes/BurningParrot/css/includes/global-variables";
+@use "@tuleap/project-background";
+
+.project-with-background {
+    .document-header {
+        padding: var(--tlp-large-spacing) var(--tlp-medium-spacing) var(--tlp-medium-spacing);
+
+        .tlp-button-ellipsis {
+            --tlp-button-ellipsis-color: var(--tlp-button-ellipsis-color-on-dark-value);
+            --tlp-button-ellipsis-hover-color: var(--tlp-button-ellipsis-hover-color-on-dark-value);
+            --tlp-button-ellipsis-focus-border-color: var(
+                --tlp-button-ellipsis-focus-border-color-on-dark-value
+            );
+            --tlp-button-ellipsis-disabled-color: var(
+                --tlp-button-ellipsis-disabled-color-on-dark-value
+            );
+            --tlp-button-ellipsis-disabled-opacity: var(
+                --tlp-button-ellipsis-disabled-opacity-on-dark-value
+            );
+            --tlp-button-ellipsis-text-shadow: var(--tlp-button-ellipsis-text-shadow-on-dark-value);
+        }
+    }
+
+    .document-header-title {
+        @include project-background.title-header-typography;
+    }
+
+    .document-header-search {
+        margin: 0 0 var(--tlp-medium-spacing);
+    }
+
+    .embedded-document-container-warning {
+        margin: var(--tlp-medium-spacing);
+    }
+}
+
+body {
+    @include project-background.apply-background(
+        ".document-header",
+        global-variables.$sidebar-expanded-width,
+        global-variables.$sidebar-collapsed-width
+    );
+}

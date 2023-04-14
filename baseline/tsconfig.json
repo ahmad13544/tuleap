@@ -1,0 +1,12 @@
+{
+    "extends": "@tuleap/build-system-configurator/tsc/tsconfig-for-apps.json",
+    "compilerOptions": {
+        "types": ["jest"],
+        "allowJs": true,
+        "skipLibCheck": true
+    },
+    "vueCompilerOptions": {
+        "target": 2.7
+    },
+    "include": ["scripts/**/*"]
+}

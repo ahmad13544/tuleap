@@ -1,0 +1,11 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@tuleap/build-system-configurator': workspace:*
+  '@tuleap/tlp-swatch-colors': workspace:*
+
+dependencies:
+  '@tuleap/tlp-swatch-colors': link:../../lib/frontend/tlp-swatch-colors
+
+devDependencies:
+  '@tuleap/build-system-configurator': link:../../lib/frontend/build-system-configurator

@@ -1,0 +1,13 @@
+{
+    "extends": "@tuleap/build-system-configurator/tsc/tsconfig-for-apps.json",
+    "compilerOptions": {
+        "types": ["jest", "bootstrap", "ckeditor"]
+    },
+    "include": [
+        "scripts/tracker-creation/**/*",
+        "scripts/tracker-homepage/**/*",
+        "scripts/artifact/**/*",
+        "scripts/form-element/**/*",
+        "scripts/semantics/timeframe/**/*"
+    ]
+}

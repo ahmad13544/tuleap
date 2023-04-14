@@ -1,0 +1,132 @@
+#level_1 > ul, #level_2 > ul {
+    line-height: 2em;
+}
+
+.navbar-search > .input-append > .btn {
+    height: 30px;
+}
+
+#ff-mw-wrapper {
+    padding: 12px;
+}
+
+div#content {
+    margin-top: 1.8em;
+}
+
+div.toc {
+    display: inline-block;
+}
+
+div#column-one {
+    padding-top: 0;
+}
+
+#p-logo {
+    position: relative;
+    height: auto;
+}
+
+#p-logo a {
+    position: relative;
+    top: -12px;
+    left: -9px;
+    background-size: contain;
+}
+
+#p-logo.no-logo {
+    display: none;
+}
+
+.tuleap-panel .pBody{
+    border: none;
+    background: none;
+}
+
+.tuleap-panel div:not(:last-child) {
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS5youFW1UREfiIpH1Q2VBz7fGPS1dOGeAAAAAElFTkSuQmCC");
+    padding-bottom: 9px;
+}
+
+.tuleap-panel div:not(:first-child) {
+    padding-top: 3px;
+}
+
+.tuleap-panel .pBody ul{
+    list-style: none;
+}
+
+.portlet h5 {
+    font-size: 100%;
+    text-transform: none;
+}
+
+body {
+    background: #F6F6F6;
+}
+
+#p-cactions li a {
+    background-color: #F6F6F6;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#p-cactions li a:hover {
+    background-color: #F6F6F6;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#p-cactions li {
+    padding: 5px 0px 0.3em;
+    background-color: #F6F6F6;
+}
+
+#p-cactions li.selected a {
+    background-color: #FFF;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#p-cactions li.selected a:hover {
+    background-color: #FFF;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#p-cactions li.selected {
+    padding: 5px 0px 0.3em;
+    background-color: #FFF;
+}
+
+.mw-editsection {
+    font-size: small;
+    font-weight: normal;
+    margin-left: 1em;
+}
+
+.mw-body .mw-content-ltr h1 {
+    font-size: 2em;
+}
+
+.mw-body .mw-content-ltr h2 {
+    font-size: 1.5em;
+}
+
+.mw-body .mw-content-ltr h3 {
+    font-size: 1.17em;
+}
+
+.mw-body .mw-content-ltr h4 {
+    font-size: 1.12em;
+}
+
+.mw-body .mw-content-ltr h5 {
+    font-size: .83em;
+}
+
+.mw-body .mw-content-ltr h6 {
+    font-size: .75em;
+}

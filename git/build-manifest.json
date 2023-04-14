@@ -1,0 +1,31 @@
+{
+    "name": "git",
+    "gettext-vue": {
+        "permissions-per-group": {
+            "src": "scripts/permissions-per-group/src",
+            "po": "scripts/permissions-per-group/po"
+        },
+        "git-repositories": {
+            "src": "scripts/repositories-list/src",
+            "po": "scripts/repositories-list/po"
+        },
+        "branch-tag-selector": {
+            "src": "scripts/repository/src/branch-tag-selector/src",
+            "po": "scripts/repository/src/branch-tag-selector/po"
+        }
+    },
+    "gettext-vue3": {
+        "artifact-create-branch-action": {
+            "src": "scripts/artifact-create-branch-action/src",
+            "po": "scripts/artifact-create-branch-action/po"
+        }
+    },
+    "gettext-smarty": {
+        "gitphp": {
+            "smarty_to_gettext": "vendor/smarty-gettext/smarty-gettext/tsmarty2c.php",
+            "scripts-templates": "templates/gitphp",
+            "scripts-php": "include/GitPHP",
+            "po": "site-content-gitphp"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "document_generation",
+    "gettext-ts": {
+        "artifact-additional-action": {
+            "src": "scripts/tracker-report-action/src",
+            "po": "scripts/tracker-report-action/po"
+        }
+    },
+    "gettext-vue3": {
+        "tracker-cross-report-action": {
+            "src": "scripts/tracker-cross-report-action/src",
+            "po": "scripts/tracker-cross-report-action/po"
+        }
+    }
+}

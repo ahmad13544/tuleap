@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "(already linked)"
+msgstr ""
+
+msgid "(auto-computed)"
+msgstr ""
+
+msgid "...to get"
+msgstr "...para obter"
+
+msgid "Add another file"
+msgstr ""
+
+msgid "An error occurred while saving the artifact."
+msgstr ""
+
+msgid "An image in a text field or in a new comment is being uploaded"
+msgstr ""
+
+msgid "Auto-compute"
+msgstr ""
+
+msgid "By: %s"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Comment"
+msgstr "Comente"
+
+msgid "Computed value:"
+msgstr ""
+
+msgid "Confirm to apply your modifications"
+msgstr ""
+
+msgid "Create a new {{ modal.title }}"
+msgstr ""
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Edited by %(user)s"
+msgstr ""
+
+msgid "Empty"
+msgstr "Vazio"
+
+msgid "Error while retrieving recently viewed artifacts: %s"
+msgstr ""
+
+msgid "Error while retrieving the artifact to link: %s"
+msgstr ""
+
+msgid "Error while retrieving the comments: %s"
+msgstr ""
+
+msgid "Error while retrieving the possible parents: %s"
+msgstr ""
+
+msgid "Error while searching for artifacts: %s"
+msgstr ""
+
+msgid "Error while uploading %(file_name)s: %(error)s"
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "File description"
+msgstr ""
+
+msgid "Follow-ups"
+msgstr ""
+
+msgid "For your information..."
+msgstr "Para sua informação..."
+
+msgid "HTML"
+msgstr ""
+
+msgid "Help"
+msgstr "Ajuda"
+
+msgid "Hidden fieldsets:"
+msgstr ""
+
+msgid "Id, title..."
+msgstr ""
+
+msgid "Keep the file"
+msgstr ""
+
+msgid "Linked artifacts are loading"
+msgstr ""
+
+msgid "Mark for removal"
+msgstr ""
+
+msgid "Markdown"
+msgstr ""
+
+msgid "Matching artifact"
+msgstr ""
+
+msgid "Max allowed upload size: %s"
+msgstr ""
+
+msgid "New artifact"
+msgstr ""
+
+msgid "No follow-ups"
+msgstr ""
+
+msgid "No links"
+msgstr ""
+
+msgid "No possible parent found"
+msgstr ""
+
+msgid "No result found"
+msgstr ""
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "Note:"
+msgstr ""
+
+msgid "Note: an artifact can only have one parent."
+msgstr ""
+
+msgid "Only comments are displayed"
+msgstr ""
+
+msgid "Please refine your search if you did not find what you are looking for."
+msgstr ""
+
+msgid "Please select a date"
+msgstr ""
+
+msgid "Please select an item in the list"
+msgstr ""
+
+msgid "Possible parents"
+msgstr ""
+
+msgid "Preview"
+msgstr "Pré-visualização"
+
+msgid "Recently viewed artifacts"
+msgstr ""
+
+msgid "References list is empty."
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "Restrict access to this artifact for the following user groups:"
+msgstr ""
+
+msgid "Save changes"
+msgstr ""
+
+msgid "Search for an artifact..."
+msgstr ""
+
+msgid "Search results"
+msgstr ""
+
+msgid "Size: %s"
+msgstr ""
+
+msgid ""
+"Someone updated this artifact while you were editing it. Please note that "
+"your modifications will be applied on top of previous changes. You need to "
+"confirm your action to submit your modification."
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "The artifact will be linked to %s"
+msgstr ""
+
+msgid "There was an error in the Markdown preview:"
+msgstr "Houve um erro na pré-visualização do Markdown:"
+
+msgid "This artifact is already linked"
+msgstr ""
+
+msgid "Type..."
+msgstr "Digite..."
+
+msgid "Unable to retrieve the linked artifacts: %s"
+msgstr ""
+
+msgid "Unable to retrieve the parent artifact: %s"
+msgstr ""
+
+msgid "Unable to upload the file"
+msgstr "Impossível carregar o arquivo"
+
+msgid "Unlink"
+msgstr ""
+
+msgid "You are not allowed to paste images here"
+msgstr "Você não está autorizado a colar imagens aqui"
+
+msgid "You are not allowed to upload files bigger than %s."
+msgstr "Você não está autorizado a carregar arquivos maiores que %s."
+
+msgid "You can drag 'n drop or paste image directly in the editor."
+msgstr "Você pode arrastar e soltar, ou colar a imagem diretamente no editor."
+
+msgid "can only have one parent."
+msgstr ""
+
+msgid "is Child of"
+msgstr ""
+
+msgid "is Linked to"
+msgstr ""
+
+msgid "is Parent of"
+msgstr ""

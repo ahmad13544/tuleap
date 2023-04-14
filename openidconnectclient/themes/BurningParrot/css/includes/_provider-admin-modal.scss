@@ -1,0 +1,140 @@
+/**
+ * Copyright (c) Enalean, 2016-Present. All Rights Reserved.
+ *
+ * This file is a part of Tuleap.
+ *
+ * Tuleap is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Tuleap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Tuleap. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@use "sass:map";
+@use "sass:color";
+@use "@tuleap/tlp-swatch-colors";
+@use "../../../case";
+
+%color-list {
+    @each $color-name, $colors in tlp-swatch-colors.$color-map {
+        &.#{case.to-snake-case($color-name)} {
+            border-color: map.get($colors, "primary");
+            background: map.get($colors, "primary");
+
+            &:hover:not(:disabled, .disabled, :active) {
+                border-color: color.adjust(map.get($colors, "primary"), $lightness: - 5%);
+                background: color.adjust(map.get($colors, "primary"), $lightness: - 5%);
+            }
+        }
+    }
+}
+
+%color-area {
+    @extend %color-list;
+
+    display: block;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.provider-admin-modal-name-container {
+    display: flex;
+}
+
+.provider-admin-modal-name {
+    flex: 1 1 auto;
+}
+
+.provider-admin-modal-icon,
+.provider-admin-modal-color,
+.provider-admin-modal-color:last-child {
+    margin: 0 0 var(--tlp-medium-spacing) calc(var(--tlp-medium-spacing) * 2);
+}
+
+.provider-icon-selector,
+.provider-color-selector {
+    width: 80px;
+}
+
+.provider-icon-results {
+    /* stylelint-disable-next-line selector-class-pattern */
+    .select2-results__option {
+        text-align: center;
+
+        &[aria-selected="true"] {
+            padding: 6px 12px;
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+}
+
+.provider-icon-container {
+    text-align: center;
+}
+
+// Shim fa-circle-o from FontAwesome 4
+.provider-admin-modal-icon,
+.provider-icon-results,
+.provider-admin-modal-provider-button {
+    .fa-circle-blank::before {
+        content: "\f111"; // fa-circle
+        font-family: "Font Awesome 6 Free";
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+
+.provider-color-container {
+    span {
+        @extend %color-area;
+    }
+}
+
+.provider-color-results {
+    height: 250px;
+
+    /* stylelint-disable-next-line selector-class-pattern */
+    .select2-results__option {
+        padding: 3px 12px;
+    }
+
+    /* stylelint-disable-next-line selector-class-pattern */
+    .select2-results__option[aria-selected="true"] {
+        padding: 3px 12px 3px 32px;
+    }
+
+    span {
+        @extend %color-area;
+    }
+}
+
+.provider-admin-modal-userinfo-endpoint-container {
+    margin: 0 0 calc(var(--tlp-medium-spacing) * 2);
+}
+
+.provider-admin-modal-provider-button-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background-color: #f0f8ff;
+}
+
+.provider-admin-modal-preview-label {
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.provider-admin-modal-provider-button {
+    @extend %color-list;
+}

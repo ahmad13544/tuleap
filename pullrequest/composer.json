@@ -1,0 +1,21 @@
+{
+  "name": "tuleap/plugin-pullrequest",
+  "autoload": {
+    "psr-4": {
+      "Tuleap\\PullRequest\\": ["include/", "include/PullRequest/"]
+    },
+    "classmap": ["include/"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tuleap\\PullRequest\\Tests\\": "./tests/unit/"
+    }
+  },
+  "tuleap": {
+    "preload": {
+      "include": [
+        "/include"
+      ]
+    }
+  }
+}

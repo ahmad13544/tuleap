@@ -1,0 +1,30 @@
+<div id="testmanagement-app"
+     ng-app="testmanagement"
+     ng-controller="TestManagementCtrl"
+>
+    <div class="testmanagement-init-data" ng-non-bindable
+         data-project-id="{{ project_id }}"
+         data-project-url="{{ project_url }}"
+         data-project-public-name="{{ project_name }}"
+         data-project-icon="{{ project_icon }}"
+         data-tracker-ids="{{ tracker_ids }}"
+         data-issue-tracker-config="{{ issue_tracker_config }}"
+         data-language="{{ lang }}"
+         data-current-user="{{ current_user }}"
+         data-current-milestone="{{ current_milestone }}"
+         data-ttm-admin-url="{{ ttm_admin_url }}"
+         data-ttm-admin-label="{{# gettext }}Administration{{/ gettext }}"
+         data-csrf-token-campaign-status="{{ csrf_token_campaign_status }}"
+         data-file-upload-max-size="{{ file_upload_max_size }}"
+         data-platform-name="{{ platform_name }}"
+         data-platform-logo-url="{{ platform_logo_url }}"
+         data-base-url="{{ base_url }}"
+         data-artifact-links-types="{{ artifact_links_types }}"
+    ></div>
+
+    <div id="testmanagement-breadcrumb" class="breadcrumb-container">
+        {{> breadcrumbs/breadcrumbs-privacy }}
+        <div ncy-breadcrumb></div>
+    </div>
+    <ui-view data-test-management-main-content tabindex="-1"></ui-view>
+</div>

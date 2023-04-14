@@ -1,0 +1,7 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@tuleap/project-background': workspace:*
+
+dependencies:
+  '@tuleap/project-background': link:../../../../../lib/frontend/project-background

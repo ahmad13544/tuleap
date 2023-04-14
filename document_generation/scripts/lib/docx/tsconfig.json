@@ -1,0 +1,9 @@
+{
+    "extends": "@tuleap/build-system-configurator/tsc/tsconfig-for-libraries.json",
+    "compilerOptions": {
+        "lib": ["DOM", "DOM.Iterable"],
+        "types": ["jest"],
+        "esModuleInterop": true
+    },
+    "include": ["src/**/*"]
+}

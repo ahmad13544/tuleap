@@ -1,0 +1,33 @@
+{
+  "author": "Enalean Team",
+  "name": "@tuleap/plugin-gitlab-group-link-wizard",
+  "homepage": "https://tuleap.org",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@tuleap/dom": "workspace:*",
+    "@tuleap/fault": "workspace:*",
+    "@tuleap/fetch-result": "workspace:*",
+    "@tuleap/plugin-git-gitlab-api-querier": "workspace:*",
+    "@tuleap/plugin-gitlab-administration-theme": "workspace:*",
+    "@tuleap/vue3-gettext-init": "workspace:*",
+    "neverthrow": "^6.0.0",
+    "pinia": "^2.0.21",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.4",
+    "vue3-gettext": "^2.2.1"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^0.0.14",
+    "@tuleap/build-system-configurator": "workspace:*",
+    "@tuleap/po-gettext-plugin": "workspace:*",
+    "@vue/test-utils": "^2.0.2"
+  },
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch --mode development --minify false",
+    "test": "vitest",
+    "typecheck": "vue-tsc --noEmit"
+  }
+}

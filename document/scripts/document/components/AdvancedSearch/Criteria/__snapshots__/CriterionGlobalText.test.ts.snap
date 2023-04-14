@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CriterionGlobalText should render the component 1`] = `
+<div
+  class="tlp-form-element document-search-criterion document-search-criterion-text"
+>
+  <div
+    class="document-search-criterion-with-popover"
+  >
+    <label
+      class="tlp-label"
+      data-current-language="en_US"
+      data-msgid="Global search"
+      for="document-global-search"
+    >
+      Global search
+    </label>
+     
+    <search-information-popover-stub
+      description="Global search will search in all text properties of document (but does not look inside the document)."
+    />
+  </div>
+   
+  <input
+    class="tlp-input"
+    data-test="global-search"
+    id="document-global-search"
+    type="text"
+  />
+</div>
+`;

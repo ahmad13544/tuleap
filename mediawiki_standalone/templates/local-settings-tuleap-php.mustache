@@ -1,0 +1,26 @@
+<?php
+// This file is deployed and managed by Tuleap.
+// DO NOT EDIT.
+
+$GLOBALS['wgTuleapPreSharedKey'] = {{ pre_shared_key }};
+
+$GLOBALS['wgTuleapUrl'] = {{ https_url }};
+
+$GLOBALS['wgServer'] = $GLOBALS['wgTuleapUrl'];
+
+$GLOBALS['wgTuleapOAuth2Config'] = ['clientId' =>  {{ oauth2_client_id }}, 'clientSecret' => {{ oauth2_client_secret }}];
+
+$GLOBALS['wgPhpCli'] = {{ php_cli_path }};
+
+$GLOBALS['wgHooks']['GetPreferences'][] = function ($user, array &$preferences): void {
+    $preferences['language']['options'] = array_filter(
+        $preferences['language']['options'],
+        function (string $lang_code): bool {
+            return isset(json_decode({{ supported_languages_json }}, true, 2, JSON_THROW_ON_ERROR)[strtolower($lang_code)]);
+        }
+    );
+};
+
+{{# central_database }}
+$GLOBALS['wgTuleapFarmConfig']['centralDb'] = {{ central_database }};
+{{/ central_database }}

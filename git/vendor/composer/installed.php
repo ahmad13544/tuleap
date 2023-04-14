@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'tuleap/plugin-git',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'cdf574e839af588afeb62066ec9a46388c2fb404',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'smarty-gettext/smarty-gettext' => array(
+            'pretty_version' => '1.7.0',
+            'version' => '1.7.0.0',
+            'reference' => '64f0e167f5a021358f9e1e4aaa4b5a1283b71e60',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../smarty-gettext/smarty-gettext',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'smarty/smarty' => array(
+            'pretty_version' => 'v4.3.1',
+            'version' => '4.3.1.0',
+            'reference' => 'e28cb0915b4e3749bf57d4ebae2984e25395cfe5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../smarty/smarty',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tuleap/plugin-git' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'cdf574e839af588afeb62066ec9a46388c2fb404',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Administration"
+msgstr ""
+
+msgid "An error occurred while migrating the project."
+msgstr ""
+
+msgid "Build of %s MediaWiki failed"
+msgstr ""
+
+msgid "Building of %s MediaWiki in progress"
+msgstr ""
+
+msgid ""
+"Cannot start MediaWiki standalone migration. Make sure that project is using "
+"legacy MediaWiki service and migration is not already started."
+msgstr ""
+
+msgid ""
+"During the process – which may take some time depending on the size of the "
+"project – users won't be able to access MediaWiki."
+msgstr ""
+
+msgid "Existing pages and attachments will be migrated."
+msgstr ""
+
+msgid "Global MediaWiki Administrator"
+msgstr ""
+
+msgid "Global permissions"
+msgstr ""
+
+msgid "Granted groups"
+msgstr ""
+
+msgid "MediaWiki"
+msgstr ""
+
+msgid "MediaWiki Standalone"
+msgstr ""
+
+msgid "MediaWiki administration"
+msgstr ""
+
+msgid "MediaWiki administrators"
+msgstr ""
+
+#, php-format
+msgid ""
+"MediaWiki migration has been started for %s. It might take some time to be "
+"effective."
+msgstr ""
+
+msgid "MediaWiki permissions have been saved"
+msgstr ""
+
+msgid "MediaWiki readers"
+msgstr ""
+
+msgid "MediaWiki writers"
+msgstr ""
+
+msgid "Mediawiki Standalone (read only)"
+msgstr ""
+
+msgid "Migration failed"
+msgstr ""
+
+msgid "Migration started"
+msgstr ""
+
+msgid "Migrations to MediaWiki standalone"
+msgstr ""
+
+msgid "Permission"
+msgstr ""
+
+msgid "Permission granted for MediaWiki administrators"
+msgstr ""
+
+msgid "Permission granted for MediaWiki readers"
+msgstr ""
+
+msgid "Permission granted for MediaWiki writers"
+msgstr ""
+
+msgid "Permission reset for MediaWiki administrators"
+msgstr ""
+
+msgid "Permission reset for MediaWiki readers"
+msgstr ""
+
+msgid "Permission reset for MediaWiki writers"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Please check plugin restrictions."
+msgstr ""
+
+msgid "Please check the logs."
+msgstr ""
+
+msgid "Please come back later"
+msgstr ""
+
+msgid "Please come back later."
+msgstr ""
+
+msgid "Please confirm your action."
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "Project administrators are de facto administrators of MediaWiki"
+msgstr ""
+
+msgid "Project name, status"
+msgstr ""
+
+msgid "Read only access to information about Mediawiki Standalone"
+msgstr ""
+
+msgid "Save configuration"
+msgstr ""
+
+msgid "Something went wrong"
+msgstr ""
+
+msgid "Standalone MediaWiki instances integration with Tuleap"
+msgstr ""
+
+msgid "Start migration"
+msgstr ""
+
+msgid "Start the migration"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid ""
+"The MediaWiki standalone service cannot activated when the Mediawiki service "
+"is active"
+msgstr ""
+
+msgid ""
+"The MediaWiki standalone service cannot activated when there are still "
+"legacy MediaWiki data"
+msgstr ""
+
+msgid ""
+"The Mediawiki service cannot activated when the MediaWiki standalone service "
+"is active"
+msgstr ""
+
+msgid ""
+"The Mediawiki service cannot activated when there are still MediaWiki "
+"standalone data"
+msgstr ""
+
+msgid "The migration already started."
+msgstr ""
+
+msgid "The project is not allowed to use MediaWiki standalone."
+msgstr ""
+
+msgid ""
+"The projects below are using the legacy MediaWiki (≤ 1.23). You can migrate "
+"them to MediaWiki standalone (≥ 1.35)."
+msgstr ""
+
+msgid "There isn't any projects to migrate"
+msgstr ""
+
+msgid "This action will disable the old service and enable the new one."
+msgstr ""
+
+msgid ""
+"This permission grants MediaWiki administration rights for each MediaWiki of "
+"every project"
+msgstr ""
+
+msgid "To be migrated"
+msgstr ""
+
+msgid "Unauthorized"
+msgstr ""
+
+msgid "User groups who can administrate"
+msgstr ""
+
+msgid "User groups who can read"
+msgstr ""
+
+msgid "User groups who can write"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid "You are about to migrate from legacy MediaWiki for project %s."
+msgstr ""
+
+msgid "{{ user_group_name }} has no global permission"
+msgstr ""

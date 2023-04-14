@@ -1,0 +1,91 @@
+/**
+ * Copyright (c) Enalean, 2018 - Present. All Rights Reserved.
+ *
+ * This file is a part of Tuleap.
+ *
+ * Tuleap is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Tuleap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Tuleap. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@use "@tuleap/tlp-swatch-colors";
+
+.document-folder-icon {
+    color: tlp-swatch-colors.$inca-silver-primary;
+}
+
+.document-file-icon {
+    color: tlp-swatch-colors.$chrome-silver-primary;
+}
+
+.document-empty-icon {
+    color: tlp-swatch-colors.$firemist-silver-primary;
+}
+
+.document-link-icon {
+    color: tlp-swatch-colors.$flamingo-pink-primary;
+}
+
+.document-audio-icon {
+    color: tlp-swatch-colors.$lake-placid-blue-primary;
+}
+
+.document-video-icon {
+    color: tlp-swatch-colors.$ocean-turquoise-primary;
+}
+
+.document-image-icon {
+    color: tlp-swatch-colors.$graffiti-yellow-primary;
+}
+
+.document-text-icon {
+    color: tlp-swatch-colors.$inca-silver-primary;
+}
+
+.document-code-icon {
+    color: tlp-swatch-colors.$daphne-blue-primary;
+}
+
+.document-archive-icon {
+    color: tlp-swatch-colors.$plum-crazy-primary;
+}
+
+.document-pdf-icon {
+    color: tlp-swatch-colors.$fiesta-red-primary;
+}
+
+.document-document-icon {
+    color: tlp-swatch-colors.$deep-blue-primary;
+}
+
+.document-document-badge.tlp-badge-outline {
+    background: tlp-swatch-colors.$deep-blue-secondary;
+    color: tlp-swatch-colors.$deep-blue-text;
+}
+
+.document-presentation-icon {
+    color: tlp-swatch-colors.$clockwork-orange-primary;
+}
+
+.document-presentation-badge.tlp-badge-outline {
+    background: tlp-swatch-colors.$clockwork-orange-secondary;
+    color: tlp-swatch-colors.$clockwork-orange-text;
+}
+
+.document-spreadsheet-icon {
+    color: tlp-swatch-colors.$sherwood-green-primary;
+}
+
+.document-spreadsheet-badge.tlp-badge-outline {
+    background: tlp-swatch-colors.$sherwood-green-secondary;
+    color: tlp-swatch-colors.$sherwood-green-text;
+}

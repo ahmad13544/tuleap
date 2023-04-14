@@ -1,0 +1,37 @@
+{
+  "author": "Enalean Team",
+  "name": "@tuleap/plugin-document_generation",
+  "homepage": "https://tuleap.org",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@tuleap/concurrency-limit-pool": "workspace:*",
+    "@tuleap/gettext": "workspace:*",
+    "@tuleap/list-picker": "workspace:*",
+    "@tuleap/plugin-docgen-docx": "workspace:*",
+    "@tuleap/plugin-docgen-xlsx": "workspace:*",
+    "@tuleap/plugin-tracker-rest-api-types": "workspace:*",
+    "@tuleap/tlp": "workspace:*",
+    "@tuleap/tlp-fetch": "workspace:*",
+    "@tuleap/tlp-modal": "workspace:*",
+    "@tuleap/vue3-gettext-init": "workspace:*",
+    "docx": "^7.3.0",
+    "sprintf-js": "^1.1.2",
+    "vue": "^3.2.37",
+    "vue3-gettext": "^2.2.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tuleap/build-system-configurator": "workspace:*",
+    "@tuleap/po-gettext-plugin": "workspace:*",
+    "@types/sprintf-js": "^1.1.2",
+    "@vue/test-utils": "^2.0.2"
+  },
+  "scripts": {
+    "typecheck": "vue-tsc --noEmit",
+    "build": "vite build",
+    "watch": "vite build --watch --mode development --minify false",
+    "test": "vitest"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "author": "Enalean Team",
+  "name": "@tuleap/plugin-api_explorer",
+  "homepage": "https://tuleap.org",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "watch": "vite build --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "swagger-ui": "^4.18.1"
+  },
+  "devDependencies": {
+    "@tuleap/build-system-configurator": "workspace:*",
+    "@types/react": "^17.0.37"
+  }
+}

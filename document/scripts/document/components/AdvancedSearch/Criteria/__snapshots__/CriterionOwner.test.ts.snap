@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CriterionOwner should render the component with an already selected user 1`] = `
+<div
+  class="tlp-form-element document-search-criterion document-search-criterion-owner"
+>
+  <label
+    class="tlp-label"
+    for="document-criterion-owner-owner"
+  >
+    Owner
+  </label>
+   
+  <select
+    class="tlp-input"
+    data-test="document-criterion-owner-owner"
+    id="document-criterion-owner-owner"
+  >
+    <option
+      selected="selected"
+      value=""
+    >
+      
+            John Doe
+        
+    </option>
+     
+  </select>
+</div>
+`;

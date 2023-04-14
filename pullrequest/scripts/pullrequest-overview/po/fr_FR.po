@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+msgid "Abandon"
+msgstr "Abandonner"
+
+msgid "Abandoned"
+msgstr "Abandonnée"
+
+msgid "Abandoned on"
+msgstr "Abandonnée le"
+
+msgid "An error occurred while doing one of your last actions."
+msgstr "Une erreur est survenue durant l’une de vos dernières actions."
+
+msgid "Author"
+msgstr "Auteur"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Changes"
+msgstr "Changements"
+
+msgid "Checkout"
+msgstr "Checkout"
+
+msgid "Checkout with"
+msgstr "Checkout avec"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Command lines copied to clipboard"
+msgstr "Les lignes de commandes on été copiées vers le presse-papiers"
+
+msgid "Commits"
+msgstr "Commits"
+
+msgid "Copy"
+msgstr "Copier"
+
+msgid "Copy to clipboard"
+msgstr "Copier dans le presse-papiers"
+
+msgid "Creation date"
+msgstr "Date de création"
+
+msgid "Edit title"
+msgstr "Éditer le titre"
+
+msgid "Error details"
+msgstr "Détails de l'erreur"
+
+msgid "Failure"
+msgstr "Échec"
+
+msgid "Failure on"
+msgstr "Échec le"
+
+msgid "HTTP"
+msgstr "HTTP"
+
+msgid "Has abandoned the pull request."
+msgstr "A abandonné la pull request."
+
+msgid "Has merged the pull request."
+msgstr "A intégré la pull request."
+
+msgid "Has rebased the pull request."
+msgstr "A rebasé la pull request."
+
+msgid "Has reopened the pull request."
+msgstr "A rouvert la pull request."
+
+msgid "Has updated the pull request."
+msgstr "A mis à jour la pull request."
+
+msgid "Last CI status"
+msgstr "Statut intégration continue"
+
+msgid "Manage reviewers"
+msgstr "Gérer les relecteurs"
+
+msgid "Matching users"
+msgstr "Utilisateurs correspondant"
+
+msgid "Merge"
+msgstr "Intégrer"
+
+msgid "Merge anyway"
+msgstr "Intégrer quand même"
+
+msgid ""
+"Merge commits are forbidden in the repository configuration (fast-forward "
+"only). Please rebase the commit and update the pull request."
+msgstr ""
+"Les commits de fusion sont interdits par la configuration du dépôt (avance "
+"rapide uniquement). Veuillez rebaser votre commit et mettre à jour la pull "
+"request."
+
+msgid "Merged"
+msgstr "Intégrée"
+
+msgid "Merged on"
+msgstr "Intégrée le"
+
+msgid "No matching users found"
+msgstr "Aucun utilisateur correspondant trouvé"
+
+msgid "No tags have been assigned yet"
+msgstr "Aucun tag n'a été encore assigné"
+
+msgid "Nobody is reviewing the pull request"
+msgstr "Personne ne revoit la pull request"
+
+msgid "Non fast-forward merge"
+msgstr "Intégration sans avance rapide"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Oh snap!"
+msgstr "Oh mince !"
+
+msgid "Overview"
+msgstr "Résumé"
+
+msgid "Pending since"
+msgstr "En cours depuis"
+
+msgid "Please be aware of the following warning before you decide to merge:"
+msgid_plural ""
+"Please be aware of these %{ nb_warnings } warnings before you decide to "
+"merge:"
+msgstr[0] ""
+"Veuillez prendre connaissance de l'avertissement suivant avant de poursuivre:"
+msgstr[1] ""
+"Veuillez prendre connaissance des %{ nb_warnings } avertissements suivants "
+"avant de poursuivre:"
+
+msgid ""
+"Pull request can not be merged automatically due to conflicts with "
+"destination. Resolve conflicts on the command line and update the pull "
+"request."
+msgstr ""
+"Cette pull request ne peut pas être intégrée automatiquement car il existe "
+"des conflits avec la destination. Résolvez ces conflits via la ligne de "
+"commande et mettez à jour la pull request."
+
+msgid ""
+"Pull request cannot be merged because source and destination branches have "
+"the very same content."
+msgstr ""
+"La pull request ne peut pas être intégrée car les branches source et "
+"destination ont exactement le même contenu."
+
+msgid ""
+"Pull request destination has diverged. Merge will not resolve in a fast-"
+"forward. You can proceed with the merge, or cancel and update your pull "
+"request"
+msgstr ""
+"La destination de la pull request a divergé. L’intégration ne se fera pas en "
+"avance rapide. Vous pouvez continuer l’intégration, ou annuler et mettre à "
+"jour la pull request."
+
+msgid ""
+"Pull request mergeability with destination is not determined. You can merge "
+"on the command line and push to destination."
+msgstr ""
+"Le statut d’intégration de cette pull request est indéterminé. Essayez de "
+"l’intégrer en ligne de commande et poussez vers la destination."
+
+msgid "References"
+msgstr "Références"
+
+msgid "Reopen"
+msgstr "Réouvrir"
+
+msgid "Reviewers"
+msgstr "Relecteurs"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "Save changes"
+msgstr "Sauvegarder les changements"
+
+msgid "Search users by their names"
+msgstr "Rechercher des utilisateurs par leurs noms"
+
+msgid "Show details"
+msgstr "Voir les détails"
+
+msgid "Success"
+msgstr "Succès"
+
+msgid "Success on"
+msgstr "Succès le"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "The last CI status is"
+msgstr "Le dernier statut de l'intégration continue est"
+
+msgid "This pull request will be cleared from all of its reviewers."
+msgstr "Plus aucun relecteur ne sera assigné à cette pull request."
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Type at least 3 characters"
+msgstr "Tapez au moins 3 caractères"
+
+msgid "Unknown"
+msgstr "Inconnu"
+
+msgid "Warning"
+msgstr "Avertissement"
+
+msgid "by"
+msgstr "par"
+
+msgid "fail"
+msgstr "échec"
+
+msgid "pending"
+msgstr "en cours"
+
+msgid "unknown"
+msgstr "inconnu"

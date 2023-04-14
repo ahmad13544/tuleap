@@ -1,0 +1,11 @@
+{
+    "extends": "@tuleap/build-system-configurator/tsc/tsconfig-for-apps.json",
+    "compilerOptions": {
+        "incremental": false,
+        "skipLibCheck": true
+    },
+    "include": [
+        "scripts/tracker-report-action/**/*",
+        "scripts/tracker-cross-report-action/**/*"
+    ]
+}

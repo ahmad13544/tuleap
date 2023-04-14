@@ -1,0 +1,25 @@
+{
+    "author": "Enalean Team",
+    "name": "@tuleap/plugin-oauth2_server",
+    "homepage": "https://tuleap.org",
+    "license": "GPL-2.0-or-later",
+    "private": true,
+    "dependencies": {
+        "@tuleap/copy-to-clipboard": "workspace:*",
+        "@tuleap/gettext": "workspace:*",
+        "@tuleap/tlp-modal": "workspace:*",
+        "sprintf-js": "^1.1.2"
+    },
+    "devDependencies": {
+        "@tuleap/build-system-configurator": "workspace:*",
+        "@tuleap/cypress-configurator": "workspace:*",
+        "@tuleap/cypress-utilities-support": "workspace:*",
+        "@types/sprintf-js": "^1.1.2"
+    },
+    "scripts": {
+        "typecheck": "tsc --noEmit",
+        "build": "vite build",
+        "watch": "vite build --watch --mode development --minify false",
+        "test": "jest"
+    }
+}

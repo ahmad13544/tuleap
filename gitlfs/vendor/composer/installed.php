@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'tuleap/plugin-gitlfs',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'cdf574e839af588afeb62066ec9a46388c2fb404',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'league/flysystem' => array(
+            'pretty_version' => '3.0.3',
+            'version' => '3.0.3.0',
+            'reference' => '9f8b4260031bfef5497477da53dd57b2aaff0e06',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/flysystem',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'league/mime-type-detection' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'reference' => 'aa70e813a6ad3d1558fc927863d47309b4c23e69',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/mime-type-detection',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tuleap/plugin-gitlfs' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'cdf574e839af588afeb62066ec9a46388c2fb404',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

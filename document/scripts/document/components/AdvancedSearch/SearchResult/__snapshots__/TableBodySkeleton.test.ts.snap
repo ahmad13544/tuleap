@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableBodySkeleton should display skeleton for different types of column 1`] = `
+<tbody>
+  <tr>
+    <td
+      class="tlp-table-cell-numeric"
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <i
+        aria-hidden="true"
+        class="tlp-skeleton-icon document-search-result-icon fa-regular fa-file-lines"
+      />
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <i
+        aria-hidden="true"
+        class="tlp-skeleton-icon document-search-result-icon fa-solid fa-user"
+      />
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td
+      class="tlp-table-cell-numeric"
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <i
+        aria-hidden="true"
+        class="tlp-skeleton-icon document-search-result-icon fa-regular fa-file-lines"
+      />
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <i
+        aria-hidden="true"
+        class="tlp-skeleton-icon document-search-result-icon fa-solid fa-user"
+      />
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td
+      class="tlp-table-cell-numeric"
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <i
+        aria-hidden="true"
+        class="tlp-skeleton-icon document-search-result-icon fa-regular fa-file-lines"
+      />
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <i
+        aria-hidden="true"
+        class="tlp-skeleton-icon document-search-result-icon fa-solid fa-user"
+      />
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+    <td
+      class=""
+    >
+      <!---->
+       
+      <span
+        class="tlp-skeleton-text"
+      />
+    </td>
+  </tr>
+</tbody>
+`;

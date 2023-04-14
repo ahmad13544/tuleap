@@ -1,0 +1,32 @@
+{
+  "author": "Enalean Team",
+  "name": "@tuleap/plugin-docgen-docx",
+  "homepage": "https://tuleap.org",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "module": "dist/plugin-docgen-docx.js",
+  "main": "dist/plugin-docgen-docx.umd.cjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "watch": "vite build --watch --mode development --minify false",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@tuleap/concurrency-limit-pool": "workspace:*",
+    "@tuleap/plugin-tracker-constants": "workspace:*",
+    "@tuleap/plugin-tracker-rest-api-types": "workspace:*",
+    "@tuleap/tlp-fetch": "workspace:*",
+    "docx": "^7.3.0",
+    "dompurify": "^3.0.0",
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "@tuleap/build-system-configurator": "workspace:*",
+    "@types/dompurify": "^2.4.0",
+    "@types/sprintf-js": "^1.1.2"
+  }
+}
